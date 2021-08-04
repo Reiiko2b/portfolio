@@ -1,0 +1,133 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css";
+
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+
+    background: url("https://images3.alphacoders.com/945/945830.jpg");
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+}
+  /* NAVBAR  */
+.topnav{
+    width: auto;
+    height: 50px;
+    background-color: black;
+}
+.topnav .btn a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+.topnav .btn a:hover{
+    transition: 0.5s;
+    color: rgb(66, 223, 92);
+    transform: scale(0.5);
+}
+#lb {
+    position: relative;
+    font-weight: bold;
+    z-index: 1;
+    top: 15px;
+    left: 83%;
+    display: inline-block;
+}
+#ctc {
+    position: relative;
+    font-weight: bold;
+    z-index: 1;
+    top: 15px;
+    left: 85%;
+    display: inline-block;
+}
+#search {
+    background-color: transparent;
+    position: relative;
+    width: 200px;
+    height: 23px;
+    border: 2px solid;
+    border-color: white;
+    border-radius: 20px;
+    top: -8px;
+    left: 44%;
+}
+#search::placeholder {
+    font-weight: bold;
+    color: white;
+}
+#sicon {
+    position: relative;
+    color: white;
+    font-size: 17px;
+    left: 42%;
+    top: -28px;
+}
+.logo #logo {
+    position: absolute;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-top: -52px;
+    margin-left: 20px;
+}
+
+.logo #logo:hover{
+    transition: 0.5s;
+    color: rgb(66, 223, 92);
+    transform: scale(1.1);
+}
+
+/* MAIN*/
+#maintxt {
+    position: relative;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    top: 150px;
+    left: 33%;
+}
+  /* Slider*/
+.container {
+    position: relative;
+    top: 250px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+}
+  
+.slider img {
+max-width: 100%;
+display: none;
+}
+img.active {
+    display: block;
+    animation: fade 0.8s;
+}
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.cont-btn {
+    width: 100%;
+    height: auto;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+    box-shadow: 0 10px 10px rgba(255, 255, 255, 0.3);
+    display: flex;
+    justify-content: center;
+}
+.btn-nav {
+      font-size: 50px;
+      margin: 0 15px;
+      cursor: pointer;
+}

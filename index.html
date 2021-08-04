@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- IMPORTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="index.css">
+        <title>Mon portfolio</title>
+    </head>
+    <body>
+    <!-- NAVBAR -->
+        <div class="topnav">
+            <div class="btn">
+                <ul>
+                    <li id="lb"><a href="">Librairie</a></li>
+                    <li id="ctc"><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <input type="search" id="search" placeholder="  Rechercher">
+            </div>
+            <span id="sicon"><i class="fa fa-search"></i></span>
+            <div class="logo">
+                <a href="index.html"><h2 id="logo">Mon Portfolio</h2></a>
+            </div>
+        </div>
+        <!-- MAIN -->
+        <div data-aos="fade-up" data-aos-duration="2000">
+            <h1 id="maintxt">Bienvenue sur mon Portfolio !</h1>
+        </div>
+    <!-- SLIDER-->
+<div data-aos="flip-up" data-aos-duration="3000">
+  <div class="container">
+
+    <div class="slider">
+      <img class="active" src="./img/slider1.jpg">
+      <img src="./img/slider2.jpg">
+      <img src="./img/slider3.jpg">
+    </div>
+
+    <div class="cont-btn">
+      <div class="btn-nav left">←</div>
+      <div class="btn-nav right">→</div>
+    </div>
+
+  </div>
+</div>
+
+
+        <script src="app.js"></script>
+        <script>
+            AOS.init();
+          </script>
+    </body>
+</html>
